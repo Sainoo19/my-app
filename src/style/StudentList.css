@@ -1,0 +1,65 @@
+/* StudentList.css */
+
+.student-list {
+    list-style-type: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.student-item {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 20px;
+    /* Space between items */
+    border: 1px solid #ddd;
+    /* Optional border for better visibility */
+    padding: 10px;
+    /* Optional padding */
+    border-radius: 5px;
+    /* Optional border radius */
+    background-color: #fff;
+    /* White background for student items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add a slight shadow for depth */
+}
+
+.student-image {
+    width: 100px;
+    /* Set image width */
+    height: 100px;
+    /* Set image height */
+    border-radius: 50%;
+    /* Make image circular */
+    margin-right: 20px;
+    /* Space between image and details */
+}
+
+.student-details {
+    flex-grow: 1;
+    /* Allow details to grow and take remaining space */
+}
+
+.student-details h2 {
+    margin: 0;
+    /* Remove margin for heading */
+    font-size: 1.5em;
+    /* Set font size for name */
+}
+
+.student-details p {
+    margin: 5px 0;
+    /* Space between paragraphs */
+    color: #666;
+    /* Lighter color for text */
+}
+
+/* Highlight score styling */
+.student-score {
+    font-weight: normal;
+    /* Normal weight for score text */
+    color: inherit;
+    /* Use inherited color for consistency */
+}
